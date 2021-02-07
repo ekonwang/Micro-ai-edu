@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn import linear_model 
 
-filename = "./mlm.csv"
+filename = "../mlm.csv"
 data = pd.read_csv(filename)
 x1_ary = np.array(data.iloc[0:800, 0].values)
 x2_ary = np.array(data.iloc[0:800, 1].values)
